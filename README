@@ -1,12 +1,17 @@
-# Big data
+### Big data
 
 Adrian Wolf 253445
 Jakub Kukliński 253410
 
 ## How to run
 
- Run docker build -t <tag_name> . |example- docker build -t this_is_easy . (Don’t forget the “.”)
-6. Run docker run <tag_name>| example- docker run this_is_easy
+Make build: 
+docker build -t <tag_name> . 
+example: docker build -t this_is_easy . (Don’t forget the “.”)
+
+Run app.py:
+docker run <tag_name>
+example: docker run this_is_easy
 
 
 
